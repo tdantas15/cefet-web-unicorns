@@ -1,0 +1,47 @@
+#cabecalho {
+	background-color: #6175f0;
+}
+
+#cabecalho h1 {
+	margin-top: 20px;
+	margin-left: 34px;
+}
+
+#cabecalho h2 {
+	margin-top: 20px;
+	margin-left: 34px;
+}
+
+#unicornio {
+	width: 310px;
+	float: left;
+}
+
+#hoje {
+	clear: left;
+	float: right;
+	width: 405px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border: 1px #ff56fb;
+	background-color: #f8cef7;
+}
+
+.destacado{
+	color: #004a79;
+	background-color: #c4caf3;
+}
+
+p {
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#musica{
+	clear: left;
+}
+h2 {
+
+}

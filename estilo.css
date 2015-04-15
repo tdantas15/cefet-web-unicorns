@@ -1,23 +1,33 @@
 #cabecalho {
 	background-color: #6175f0;
+	padding-bottom: 13px;
+	padding-top: 20px;
+	padding-left: 34px;
 }
 
 #cabecalho h1 {
-	margin-top: 20px;
-	margin-left: 34px;
+	color: white;
+	font-size: 36px;
+	font-family: 'Kaushan Script', cursive;
+	font-style: normal;
 }
 
 #cabecalho h2 {
-	margin-top: 20px;
-	margin-left: 34px;
+	color: white;
 }
 
 #unicornio {
 	width: 310px;
 	float: left;
+	margin-right: 13px;
+}
+
+.referencia {
+	font-style: italic;
 }
 
 #hoje {
+	margin-right: 25px;
 	clear: left;
 	float: right;
 	width: 405px;
@@ -25,11 +35,17 @@
 	padding-left: 35px;
 	padding-top: 20px;
 	padding-bottom: 30px;
-	border: 1px #ff56fb;
+	border: 1px solid #ff56fb;
 	background-color: #f8cef7;
+	text-align: center;
 }
 
-.destacado{
+#hoje > img {
+	width: 112px;
+	height: 112px;
+}
+
+.destacado {
 	color: #004a79;
 	background-color: #c4caf3;
 }
@@ -39,9 +55,22 @@ p {
 	font-family: Arial;
 }
 
-#musica{
+#musica {
 	clear: left;
+	margin-left: 12px;
 }
-h2 {
 
+#musica > p:nth-child(odd) , .destacado > p:nth-child(even) {
+	margin-left: 34px;
 }
+
+h2 {
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
